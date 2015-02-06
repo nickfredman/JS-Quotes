@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Oswald";
+    letter-spacing: .25rem;
+}
+
+.container {
+    margin-top: 0;
+    min-height: 640px;
+}
+
+h1 {
+    margin-top: 0;
+    padding-top: 2rem;
+    color: white;
+    font-size: 4rem;
+    text-align: center;
+    margin: 0 15%;
+}
+
+.new-quote {
+    background: url('talk.jpg') no-repeat;
+    background-size: cover;
+    padding-bottom: 40px;
+    /*margin-bottom: 30px;*/
+}
+
+.new-quote label {
+    display: inline-block;
+    color: white;
+    margin-left: 15px;
+    vertical-align: top;
+    padding-top: 15px;
+    width: 12%;
+    font-size: 1.75rem;
+}
+
+.new-quote input, textarea {
+    border-radius: 5px;
+    border: none;
+    display: inline-block;
+    opacity: .35;
+    margin-bottom: 0;
+}
+
+.quote-text {
+    width: 80%;
+    height: 8rem;
+    margin: 10px auto;
+    text-align: top;
+    overflow: auto;
+    word-wrap: break-word;
+}
+
+.quote-author {
+    width: 20%;
+    margin-top: 22px;
+}
+
+.add-quote-button {
+    margin-left: 14%;
+    margin-top: 1.2rem;
+    width: 204.188px;
+    height: 2.5rem;
+    display: block;
+    opacity: .65;
+    background: rgba(255, 255, 255, .75);
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    color: black;
+}
+
+.quote-list {
+    background: linear-gradient(to bottom, rgba(19,19,19,1) 0%, rgba(71,71,71,1) 33%, rgba(102,102,102,1) 66%, rgba(89,89,89,1) 88%, rgba(76,76,76,1) 100%);
+    min-height: 500px;
+    color: white;
+    padding: 20px;
+}
+
+.live-quote {
+    margin: 15px;
+    padding: 10px 25px;
+    border: 2px solid rgba(255, 255, 255, .05);
+    border-radius: 5px;
+    min-width: 200px;
+    max-width: 500px;
+    /*overflow: auto;*/
+    word-wrap: break-word;
+    position: relative;
+}
+
+.quote-list-text {
+    font-style: italic;
+    letter-spacing: .175rem;
+    font-size: .9rem;
+}
+
+.quote-list-author {
+    letter-spacing: .15rem;
+    font-size: .75rem;
+    color: #eee;
+}
+
+.live-quote button {
+    position: absolute;
+    bottom: -13px;
+    right: -11px;
+    background: none;
+    /*border-radius: 50%;*/
+    /*border: 1px solid #444;*/
+    border: none;
+}
+
+.stars ul {
+    padding-left: 0;
+}
+
+.star {
+    background: no-repeat url('empty-star.png');
+    background-size: 24px 24px;
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    text-decoration: none;
+    margin: 0px 2px;
+}
+
+.star:hover {
+    background: no-repeat url('star.png');
+    background-size: 24px 24px;
+}
+
+.clicked-star {
+    background: no-repeat url('star.png');
+    background-size: 24px 24px;
+}

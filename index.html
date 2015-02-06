@@ -1,16 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>Untitled</title>
-    <link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css">
-    <link rel="stylesheet" type="text/css" href="main.css">
-  </head>
-  <body>
-    
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.7.0/underscore-min.js"></script>
-    <script src="main.js"></script>
+    <head>
+        <meta charset="utf-8">
+        <title>JS Quotes</title>
+        <link rel="stylesheet" type="text/css" href="http://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.1/normalize.min.css">
+        <link href='http://fonts.googleapis.com/css?family=Oswald:400,700' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="main.css">
+    </head>
+    <body>
 
-  </body>
+        <div class="container">
+            <!-- Area for adding a new quote -->
+
+            <div class="new-quote">
+                <h1>A List of Great Quotes</h1>
+                <form>
+                    <label>Quote:</label>
+                    <textarea class="quote-text" type="text"></textarea>
+                    <label>Author:</label>
+                    <input class="quote-author" type="text">
+                    <button class="add-quote-button">Add Quote</button>
+                </form>
+            </div>
+
+            <!-- Area for seeing all added quotes -->
+
+            <div class="quote-list">
+            </div>
+
+
+
+            <button class="random-quote">
+            </button>
+        </div>
+
+
+
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.7.0/underscore-min.js"></script>
+        <script src="main.js"></script>
+
+    </body>
 </html>
