@@ -129,10 +129,10 @@ h1 {
     margin: 0px 2px;
 }
 
-.star:hover {
+/*.star:hover {
     background: no-repeat url('star.png');
     background-size: 24px 24px;
-}
+}*/
 
 .clicked-star {
     background: no-repeat url('star.png');
